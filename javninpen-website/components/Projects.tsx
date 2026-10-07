@@ -21,7 +21,7 @@ export default function Projects() {
             <p className="mt-4 max-w-2x1 text-zinc-400">
                 Algunos proyectos en los que he trabajado
             </p>
-            <div className="mt-12 grid gap-6 lg:grid-cols-3">
+            <div className="mt-12 grid gap-6 lg:grid-cols-2">
                 {projects.map((project) => (
                     <article
                         key={project.title}
