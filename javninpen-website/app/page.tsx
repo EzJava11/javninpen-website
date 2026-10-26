@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Contact from "@/components/Contact";
 import Navbar from "@/components/Navbar";
 import Projects from "@/components/Projects";
 import Services from "@/components/Services";
@@ -7,7 +8,7 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-zinc-950 text-white">
       <Navbar></Navbar>
-      <section className="mx-auto flex min-h-screen max-w-6xl flex-col justify-center px-6 py-24">
+      <section className="mx-auto flex min-h-screen max-w-6xl flex-col justify-center px-6 py-12">
         <p className="mb-6 text-sm font-medium tracking-[0.25em] text-emerald-400 uppercase">
           Desarrollo web · Alicante
         </p>
@@ -40,6 +41,7 @@ export default function Home() {
       <Services></Services>
       <Projects></Projects>
       <About></About>
+      <Contact></Contact>
     </main>
   );
 }

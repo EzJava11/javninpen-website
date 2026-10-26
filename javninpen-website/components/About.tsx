@@ -1,11 +1,12 @@
 export default function About() {
     return (
-        <section id="sobre-mi">
+        <section id="sobre-mi"
+            className="mx-auto max-w-6xl px-6 py-12">
             <div className="mt-10">
                 <p className="text-sm font-medium tracking-[0.2em] text-emerald-400 uppercase">
                     Sobre mí
                 </p>
-                <h2 className="mt-3 text-3x1 font-semibold">
+                <h2 className="mt-3 text-3xl font-semibold">
                     Desarrollo de soluciones digitales con tecnología moderna
                 </h2>
                 <p className="mt-6 text-zinc-400">
