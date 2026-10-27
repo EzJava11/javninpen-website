@@ -19,7 +19,7 @@ export default function Projects() {
             <h2 className="text-3xl font-semibold mt-10">
                 Proyectos
             </h2>
-            <p className="mt-4 max-w-2xl text-zinc-400">
+            <p className="mt-4 max-w-2xl text-zinc-400 ">
                 Algunos proyectos en los que he trabajado
             </p>
             <div className="mt-12 grid gap-6 lg:grid-cols-2">
